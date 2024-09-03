@@ -8,7 +8,12 @@ int main()
 {
     setlocale(LC_ALL, "ru");
 
-    cout << "Hello World";
+    char sym;
+
+    cout << "Введите символ, и программа с Вами поздоровается: ";
+    cin >> sym;
+
+    cout << "Hello World, Ваш символ - " << sym;
 
     return 0;
 }
