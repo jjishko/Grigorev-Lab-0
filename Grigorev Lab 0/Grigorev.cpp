@@ -7,13 +7,10 @@ using std::cin;
 int main()
 {
     setlocale(LC_ALL, "ru");
-
-    char sym;
-
-    cout << "Ââåäèòå ñèìâîë, è ïðîãðàììà ñ Âàìè ïîçäîðîâàåòñÿ: ";
+    cout << "Ã‚Ã¢Ã¥Ã¤Ã¨Ã²Ã¥ Ã±Ã¨Ã¬Ã¢Ã®Ã«, Ã¨ Ã¯Ã°Ã®Ã£Ã°Ã Ã¬Ã¬Ã  Ã± Ã‚Ã Ã¬Ã¨ Ã¯Ã®Ã§Ã¤Ã®Ã°Ã®Ã¢Ã Ã¥Ã²Ã±Ã¿: ";
     cin >> sym;
 
-    cout << "Hello World, Âàø ñèìâîë - " << sym;
+    cout << "Hello World, Ã‚Ã Ã¸ Ã±Ã¨Ã¬Ã¢Ã®Ã« - " << sym;
 
     return 0;
 }
